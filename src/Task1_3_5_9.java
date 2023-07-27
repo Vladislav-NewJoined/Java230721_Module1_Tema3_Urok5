@@ -57,7 +57,7 @@ public class Task1_3_5_9 {
         System.out.println(quoteStrBuild);
         System.out.println(signatureStrBuild);
 
-        System.out.println("Результат: ");
+        System.out.println("\nРезультат: ");
         String str = quoteStrBuild.toString();
         String[] arr = str.split(" ");
         for (int i = 0; i < arr.length; i++) {
