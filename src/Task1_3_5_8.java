@@ -48,6 +48,7 @@ public class Task1_3_5_8 {
             System.out.println("На введённую дату курс не установлен.");
         }
     }
+
     private static String downloadWebPage(String url) throws IOException {
         StringBuilder result = new StringBuilder();
         String line;
